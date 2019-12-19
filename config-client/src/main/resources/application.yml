@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:39007
+server:
+  port: 39008
